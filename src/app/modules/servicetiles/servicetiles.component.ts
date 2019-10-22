@@ -10,6 +10,7 @@ export class ServicetilesComponent implements OnInit {
   services: Object;
   @Input() name: String;
   @Input() tilecount: Number;
+  @Input() subtitle: String;
 
   constructor(private siteData:SitedataService) {
     this.siteData.getServices()
@@ -17,7 +18,7 @@ export class ServicetilesComponent implements OnInit {
    }
 
   ngOnInit() {
-    console.log(this.tilecount)
+
   }
 
 }

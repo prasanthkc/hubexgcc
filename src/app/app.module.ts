@@ -11,6 +11,10 @@ import { PromobarComponent } from './modules/promobar/promobar.component';
 import { ServicetilesComponent } from './modules/servicetiles/servicetiles.component';
 import { SitedataService } from './services/sitedata.service';
 import { HttpClientModule } from '@angular/common/http';
+import { TilesliderComponent } from './modules/tileslider/tileslider.component';
+import { VideobarComponent } from './modules/videobar/videobar.component';
+import { TestimonialsComponent } from './modules/testimonials/testimonials.component';
+import { ContactbarComponent } from './modules/contactbar/contactbar.component';
 
 
 
@@ -22,7 +26,11 @@ import { HttpClientModule } from '@angular/common/http';
     MainbannerComponent,
     HomeComponent,
     PromobarComponent,
-    ServicetilesComponent
+    ServicetilesComponent,
+    TilesliderComponent,
+    VideobarComponent,
+    TestimonialsComponent,
+    ContactbarComponent
   ],
   imports: [
     BrowserModule,

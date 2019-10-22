@@ -1,14 +1,19 @@
-[{
-  "air":[
-    {"title":"air freight"},
-    {"desc":"air freight description"}
-  ],
-  "sea":[
-    {"title":"sea freight"},
-    {"desc":"air freight description"}
-  ],
-  "ground":[
-    {"title":"ground freight"},
-    {"desc":"air freight description"}
-  ]
-}]
+[
+  {
+    "type": "air freight",
+    "desc": "air freight description",
+    "url": "/sample/link"
+  },
+  {
+    "type": "sea freight",
+    "desc": "air freight description"
+  },
+  {
+    "type": "ground freight",
+    "desc": "air freight description"
+  },
+  {
+    "type": "warehouse",
+    "desc": "warehouse description"
+  }
+]

@@ -1,0 +1,11 @@
+<div class="owl-carousel nonloop-block-13">
+    <div *ngFor="let service of services">
+        <a href="#" class="unit-1 text-center">
+            <img src="{{service.tileImg}}" alt="Image" class="img-fluid">
+            <div class="unit-1-text">
+                <h3 class="unit-1-heading">{{service.type}}</h3>
+                <p class="px-5">{{service.desc}}</p>
+            </div>
+        </a>
+    </div>
+</div>
